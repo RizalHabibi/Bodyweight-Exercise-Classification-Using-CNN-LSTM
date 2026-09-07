@@ -1,7 +1,7 @@
 # Bodyweight-Exercise-Classification-Using-CNN-LSTM
 
 A computer vision and deep learning project for real-time classification
-of bodyweight exercises using MediaPipe Pose and a CNN-BiLSTM architecture.
+of bodyweight exercises using MediaPipe Pose and a CNN-LSTM architecture.
 
 ## Overview
 
@@ -33,7 +33,7 @@ Video
 The model combines:
 
 - 1D Convolutional Neural Network (CNN)
-- Bidirectional Long Short-Term Memory (Bi-LSTM)
+- Long Short-Term Memory (LSTM)
 
 The input sequence consists of 30 frames with 135 features per frame.
 
