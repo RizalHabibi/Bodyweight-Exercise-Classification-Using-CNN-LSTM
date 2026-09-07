@@ -1,7 +1,4 @@
 # Bodyweight-Exercise-Classification-Using-CNN-LSTM
- Bodyweight Exercise Classification Using CNN-LSTM
-
-# Bodyweight Exercise Classification Using CNN-BiLSTM
 
 A computer vision and deep learning project for real-time classification
 of bodyweight exercises using MediaPipe Pose and a CNN-BiLSTM architecture.
