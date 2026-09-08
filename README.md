@@ -216,3 +216,6 @@ The implementation also performs real-time monitoring and logging of system perf
 - Scikit-learn
 - Matplotlib
 - Jupyter Notebook
+
+
+Environment Note: This project was developed and tested using MediaPipe 0.10.20. Reproducing the exact environment may require using a compatible Python version and package configuration.
