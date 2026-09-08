@@ -14,19 +14,36 @@ five bodyweight exercises:
 - Squat
 - Sit-up
 
-The system extracts human pose landmarks using MediaPipe Pose and uses
-spatial, velocity, and acceleration features as input to a CNN-BiLSTM model.
+The system uses MediaPipe Pose to extract human body landmarks from video frames. The extracted pose data transformed into spatial, velocity, and acceleration features and processed as temporal sequences using a CNN-LSTM model.
+
+## Objective
+The project was developed as part of an undergraduate thesis in Electrical Engineering.
+The main objective of this project is to develop a deep learning-based system capable of recognizing bodyweight exercises from human pose information and supporting real-time exercise classification.
+
+The project focuses on:
+- Human pose-based feature extraction
+- Temporal sequence modeling
+- CNN-LSTM architecture for activity classification
+- Model evaluation and performance analysis
+- Real-time inference using a webcam
 
 ## Pipeline
-
+The overall processing pipeline is:
 Video
-→ MediaPipe Pose
-→ Feature Extraction
-→ Feature Engineering
-→ Sliding Window
-→ CNN-BiLSTM
-→ Classification
-→ Real-Time Prediction
+  ↓
+MediaPipe Pose
+  ↓
+Pose Landmark Extraction
+  ↓
+Feature Engineering
+  ↓
+Sliding Window
+  ↓
+CNN-LSTM
+  ↓
+Exercise Classification
+  ↓
+Real-Time Prediction
 
 ## Model
 
